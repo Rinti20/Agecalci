@@ -1,0 +1,59 @@
+body{
+    background: center/cover no-repeat url("age.jpg") ;
+}
+h2{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2rem;
+}
+.box1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 601px;
+
+background-color: transparent;
+height: 592px;
+
+margin: auto;
+margin-top: 91px;
+    
+}
+#b2
+{
+    display: flex;
+}
+.btn
+{
+    
+    color: black;
+padding: 13px;
+margin: 55px;
+border-radius: 25px;
+background-color: #dadab3;
+}
+.btn:hover
+{
+    cursor: pointer;
+    color:blue;
+}
+#b1
+{
+    height: 210px;
+}
+h1{
+    padding-top: 91px;
+padding-left: 7px;
+font-family: 'Source Code Pro', monospace;
+font-size: 3rem;
+color: white;
+}
+
+.foot
+{
+    display: flex;
+    color:blanchedalmond;
+    justify-content: center;
+   font-family: fantasy;
+}

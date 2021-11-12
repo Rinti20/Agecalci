@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGE CALCULATOR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kalam:wght@300;400;700&family=Knewave&family=Source+Code+Pro&display=swap" rel="stylesheet">
+   
+   <link rel="stylesheet" type="text/css" href='style.css'  media="screen" >
+        
+
+</head>
+<body>
+    <div class="box1">
+        <div class="box3" id="b1">
+            <h1>AGE CALCULATOR</h1>
+        </div>
+        <div class="box3" id="b2">
+            <button class="btn" id="btn1" onclick="age()"><strong>Click Now</strong></button>
+            <button class="btn" onclick="reset()"><strong>Reset</strong></button>
+           
+
+        </div>
+        <div class="box" >
+            <div id="b4"></div>
+        </div>
+    </div>
+    
+
+    <footer class="foot">Copyright © 2021 project1.html | All Rights Reserved</footer>
+
+
+
+
+    <script>
+function age()
+{
+    var a=prompt("What year were you born?");
+    var b=(2021-a);
+    var h1=document.createElement('h1');
+    var txt=document.createTextNode("You are"+" " + b + " "+ "years old");
+    h1.setAttribute('id','ageindays');
+    h1.appendChild(txt);
+    document.getElementById('b4').appendChild(h1);
+}
+function reset()
+{
+    document.getElementById('ageindays').remove();
+}
+
+    </script>
+</body>
+</html>
